@@ -1,2 +1,51 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="big d-flex flex-column">
+  <div class="top d-flex">
+    <div class="menu w-25 p-4 d-flex flex-column ">
+     <%= link_to "Home", root_path  %>
+     <%= link_to "About Me", about_me_path  %>
+     <%= link_to "Common Questions", common_questions_path  %>
+     <%= link_to "Rates & Insurance", rates_insurance_path  %>
+     <%= link_to "Appointment Request", appointment_request_path  %>
+     <%= link_to "Contact Me", contact_me_path  %>
+     <%= link_to "Privacy & Policy", privacy_policy_path  %>
+
+
+    </div>
+    <div class="image w-50"> <%= image_tag "lilly.jpg", crop: :fill, alt: "alttext" %></div>
+    <div class="icon-links p-5 w-25 d-flex flex-column justify-content-center align-items-center">
+      <%= link_to root_path do %>
+      <i class="fas fa-home"></i>
+      <% end %>
+      <%= link_to appointment_request_path do %>
+      <i class="fas fa-calendar-check"> </i>
+      <% end %>
+      <%= link_to contact_me_path do %>
+      <i class="fas fa-phone-square"></i>
+      <% end %>
+    </div>
+  </div>
+  <div class="d-flex ">
+    <div class="links w-25 p-5 d-flex flex-column ">
+        <h1>Schedule an appointment</h1>
+        <h2>Melissa Craig-Morse</h2>
+        <p>7079219631</p>
+        <p>120 Pleasant Hill Rd., Suite 370, Sebastopol, California 95472
+US</p>
+        <p>melissa@melissacraigmorse.com</p>
+
+
+    </div>
+    <div class="welcome-info d-flex w-75 p-5">
+    <div class="welcome p-1">
+      <h1>Welcome</h1>
+      <p>Effective therapy is a process of learning to embrace one’s genuine self and discovering ways to access health and balance in life and relationships.
+
+    Current research says that the most significant factor in the course of therapy's success is the level of trust and connection between the client and therapist. The ease with which this connection often occurs in my practice has been invaluable in helping those I work with to move from distress to a sense of meaning and joy in their lives.
+
+    Moving beyond isolation, anxiety, sadness and other hard feelings is central to accessing the goodness that life inherently supplies. One of the greatest things you can do in life is to discover and come to love the being that you really are!   I would love to support you in this process.</p></div>
+    <div class="p-5"><%= image_tag "profile.jpg", alt: "alttext" %></div>
+    </div>
+  </div>
+
+
+</div>
