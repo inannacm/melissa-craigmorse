@@ -1,0 +1,52 @@
+// Specific CSS for your home-page
+
+.large {
+   background-color: white;
+}
+
+.info {
+  background-color: #C8F4DD;
+}
+
+
+.welcome {
+  background-color: white;
+  p {
+    font-size: 15px;
+  }
+
+ }
+
+
+.menu {
+  background-color: white;
+ a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #2A2B2B;
+  text-decoration: none;
+  line-height: 35px;
+  &:hover {
+    opacity: .7;
+    text-decoration: none;
+  }
+ }
+}
+
+
+.links {
+  background-color: #C8F4DD;
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: white;
+  h1 {
+    font-size: 25px;
+    font-family: lucida;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+}
