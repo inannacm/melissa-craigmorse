@@ -15,6 +15,9 @@
     font-size: 20px;
     font-weight: bold;
   }
+  p {
+    font-size: 15px;
+  }
 
 }
 
@@ -59,7 +62,6 @@
   font-weight: bold;
   color: #2A2B2B;
   text-decoration: none;
-  line-height: 35px;
   &:hover {
     opacity: .7;
     text-decoration: none;
