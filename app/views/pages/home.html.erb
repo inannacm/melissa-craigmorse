@@ -13,18 +13,27 @@
 
     </div>
     <div class="image w-50"> <%= image_tag "lilly.jpg", crop: :fill, alt: "alttext" %></div>
-    <div class="icon-links p-5 w-25 d-flex flex-column justify-content-center align-items-center">
-      <%= link_to root_path do %>
-      <i class="fas fa-home"></i>
-      <% end %>
-      <%= link_to appointment_request_path do %>
-      <i class="fas fa-calendar-check"> </i>
-      <% end %>
+    <div class="icon-links-1 p-5 w-25 d-flex flex-column justify-content-center align-items-center">
+      <div>
+        <%= link_to root_path do %>
+          <i class="fas fa-home"></i>
+        <% end %>
+      </div>
+
+      <div>
+        <%= link_to appointment_request_path do %>
+        <i class="fas fa-calendar-check"> </i>
+        <% end %>
+      </div>
+
+      <div>
       <%= link_to contact_me_path do %>
-      <i class="fas fa-phone-square"></i>
-      <% end %>
+        <i class="fas fa-phone-square"></i>
+        <% end %>
+      </div>
     </div>
   </div>
+
   <div class="d-flex ">
     <div class="links w-25 p-5 d-flex flex-column ">
         <h1>Schedule an appointment</h1>
