@@ -30,5 +30,32 @@
 
 }
 
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+  transition: 0.5s background-color ease;
+  height: 130px;
+  font-family: 'Oswald', sans-serif;
+
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.logo {
+  transition: 0.5s ease;
+}
+
+.logo:hover {
+  transform: rotate(180deg);
+}
+
+
 
 
